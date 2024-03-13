@@ -1,0 +1,54 @@
+﻿<Window x:Class="PECKY.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PECKY"
+        mc:Ignorable="d"
+        Title="Lepší než Edupage"  MinHeight="450" MinWidth="800" MaxHeight="450" MaxWidth="800">
+    <Grid Margin="0,0,0,-44">
+        <Rectangle x:Name="my_rectangle" HorizontalAlignment="Center" Height="25" Stroke="Blue" VerticalAlignment="Top" Width="800">
+            <Rectangle.Fill>
+                <SolidColorBrush Color="Blue"/>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Button Content="Hlavní Stránka" BorderThickness="0" Background="Blue" Foreground="White" FontWeight="ExtraBold" HorizontalAlignment="Left" Margin="123,0,0,0" VerticalAlignment="Top" Height="25" Width="93" RenderTransformOrigin="0.507,0.495"/>
+        <Button Content="Rozvrh" BorderThickness="0" Background="Blue" Foreground="White" FontWeight="ExtraBold" HorizontalAlignment="Left" Margin="216,0,0,0" VerticalAlignment="Top" Height="25" Width="56"/>
+        <Button Content="Suplování" BorderThickness="0" Background="Blue" Foreground="White" FontWeight="ExtraBold" HorizontalAlignment="Left" Margin="272,0,0,0" VerticalAlignment="Top" Height="25" Width="60"/>
+        <Button Content="Kontakt" BorderThickness="0" Background="Blue" Foreground="White" FontWeight="ExtraBold" HorizontalAlignment="Left" Margin="332,0,0,0" VerticalAlignment="Top" Height="25" Width="50"/>
+        <Image Source="imgs/roblok.png" Width="800" Margin="0,25,0,301"/>
+        <Button HorizontalAlignment="Left" Margin="52,182,0,0" VerticalAlignment="Top" Height="193" Width="132">
+            <Image Source="imgs/nuget.png"></Image>
+        </Button>
+        <Button HorizontalAlignment="Left" Margin="204,182,0,0" VerticalAlignment="Top" Height="193" Width="128" >
+            <Image Source="imgs/krator.jpg"></Image>
+        </Button>
+        <Label Content="Rozvrh" Background="Black" Foreground="White" FontWeight="Bold" HorizontalContentAlignment="Center" HorizontalAlignment="Left" Margin="52,349,0,0" VerticalAlignment="Top" Width="132"/>
+        <Label Content="Suplování" Background="Black" Foreground="White" FontWeight="Bold" HorizontalContentAlignment="Center" HorizontalAlignment="Left" Margin="204,349,0,0" VerticalAlignment="Top" Width="128"/>
+        <Label Content="Přihlášení" FontFamily="Comic Sans MS" FontSize="25" HorizontalAlignment="Left" Margin="410,189,0,0" VerticalAlignment="Top" Height="42" Width="309"/>
+        <Rectangle HorizontalAlignment="Left" Height="3" Stroke="Blue" VerticalAlignment="Top" Width="351" Margin="410,231,0,0">
+            <Rectangle.Fill>
+                <SolidColorBrush Color="Blue"/>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Label Content="Uživatelské jméno:" FontFamily="Comic Sans MS" HorizontalAlignment="Left" Margin="410,239,0,0" VerticalAlignment="Top" Width="351"/>
+        <TextBox FontFamily="Comic Sans MS" HorizontalAlignment="Left" Margin="410,261,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="351" Height="25"/>
+        <Label Content="Heslo:" FontFamily="Comic Sans MS" HorizontalAlignment="Left" Margin="410,286,0,0" VerticalAlignment="Top" Width="351"/>
+        <TextBox HorizontalAlignment="Left" Margin="410,313,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="351" Height="25"/>
+        <Button x:Name="log_in" Content="Přihlášení" Background="Blue" Foreground="White" FontWeight="Bold" FontFamily="Comic Sans MS" HorizontalAlignment="Left" Margin="410,349,0,0" VerticalAlignment="Top" Height="25" Width="84" Click="log_in_Click"/>
+        <Image x:Name="xd" Source="imgs/zelda.jpg" HorizontalAlignment="Left" Height="450" VerticalAlignment="Top" Width="800" Visibility="Hidden"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </Grid>
+</Window>
